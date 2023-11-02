@@ -2,7 +2,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 
 import MainLayout from './components/layouts/MainLayout';
-import NavBar from './components/elements/NavBar';
+import NavBar from './components/elements/NavBar/NavBar';
 import MainContent from './components/elements/MainContent';
 
 const App = () => {

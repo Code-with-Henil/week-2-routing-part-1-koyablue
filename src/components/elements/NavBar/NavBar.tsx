@@ -1,10 +1,6 @@
-import { Link } from 'react-router-dom';
+import { paths } from '../../../const/paths';
 
-import { paths } from '../../const/paths';
-
-const NavItem = ({ label, path }: { label: string; path: string; }) => (
-  <Link to={path} className="mx-2">{label}</Link>
-);
+import NavItem from './NavItem';
 
 const NavBar = () => {
   return (
